@@ -29,6 +29,7 @@ comb<-function(n,r){
     return(NA)
   }
   p=factorial(n)/(factorial(n-r)*factorial(r))
+  return(p)
 }
 
 
