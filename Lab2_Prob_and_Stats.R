@@ -6,6 +6,7 @@ bayes<-function(prA,prB,prB_A){
   return(prA_B)
 }
 # Let's revisit the Covid example in which 2 out of every 1000 persons were infected
+# Consider Specificity of 98% and Sensitivity of 80% According to the latest Antigen Tests that were developed
 bayes(.002,0.8*0.002+0.02*0.998,0.8)
 
 # And at the peak with 12% of the world population infected
