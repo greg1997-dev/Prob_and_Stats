@@ -1,4 +1,7 @@
 # Lab 1: Introduction to R and its commands
+#I forgot a line in this doc. 
+
+
 x<-c(1,2,3,4,5,6) #define a vector of 6 elements
 x1<-seq(1,6)#use sequence function for defining a vector of 6 elements
 
