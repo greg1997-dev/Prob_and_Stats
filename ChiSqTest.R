@@ -1,5 +1,3 @@
-#AGA was here :)
-# To move in Vim use h,j,k,and l keys
 prob<-c(pnorm(66,68,1), #<66 in
         pnorm(67.5,68,1)-pnorm(66,68,1), #<66x<67.5
         pnorm(68.5,68,1)-pnorm(67.5,68,1), #67.5<x<68.5
